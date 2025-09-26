@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#232323',
     borderRadius: 16,
     padding: 20,
-    alignItems: 'flex-start',
+    alignItems: 'center',
     width: '80%',
     maxWidth: 400,
     //ios
@@ -72,22 +72,24 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 4,
-    color: "white"
+    color: "white",
+    textAlign: 'center'
   },
   title: {
     fontSize: 16,
     color: '#CDCDCD',
     marginBottom: 8,
+    textAlign: 'center'
   },
   bio: {
     fontSize: 14,
     color: '#CDCDCD',
-    textAlign: 'left',
+    textAlign: 'center',
   },
   skillsContainer: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     marginBottom: 16,
   },
   skill: {
